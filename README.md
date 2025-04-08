@@ -15,5 +15,5 @@ A Streamlit-based AI tool to explore U.S. politicians’ promises, bills, speech
 ## 🛠 Setup Instructions
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/know-your-candidate-app.git
+git clone https://github.com/notrohit123/know-your-candidate-app.git
 cd know-your-candidate-app
