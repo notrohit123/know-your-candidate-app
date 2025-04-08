@@ -6,11 +6,11 @@
 A Streamlit-based AI tool to explore U.S. politicians’ promises, bills, speeches, and news coverage — powered by OpenAI.
 
 ## ✨ Features
-- 📜 View campaign promises
-- 📊 Summarize voting history
-- 🎤 Analyze speeches
-- 📰 Read recent news and fact-checks
-- 👶 ELI5: Understand their politics simply
+-  View campaign promises
+-  Summarize voting history
+-  Analyze speeches
+-  Read recent news and fact-checks
+-  ELI5: Understand their politics simply
 
 ## 🛠 Setup Instructions
 
