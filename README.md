@@ -3,6 +3,13 @@
 
 > 🚧 **Note**: This project is a work in progress. Some features may be incomplete or under development.
 
+🛠️ Optional / Planned Features
+This project is a work in progress. The following features are planned or can be optionally added by contributors:
+
+🔎 Brave Search Integration:
+You can enhance this app by integrating the Brave Search API to fetch real-time news articles and fact-checks.
+
+-----------------------------------
 A Streamlit-based AI tool to explore U.S. politicians’ promises, bills, speeches, and news coverage — powered by OpenAI.
 
 ## ✨ Features
