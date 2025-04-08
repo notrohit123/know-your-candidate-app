@@ -46,7 +46,7 @@ div.stButton > button:disabled {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🇺🇸 Know Your Candidate – Political AI Assistant")
+st.title("🇺🇸 Know Your Candidate –- Political AI Assistant")
 st.markdown("Stay informed. Instantly learn about **U.S. politicians** – their **promises**, **voting records**, **speeches**, and more with one click.")
 
 name = st.text_input("👤 Enter a politician's name (e.g., 'AOC', 'Donald Trump')")
