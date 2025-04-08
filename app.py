@@ -3,14 +3,11 @@ from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI
 
-# ------------------ LOAD ENVIRONMENT VARIABLES ------------------
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# ------------------ STREAMLIT UI SETUP ------------------
 st.set_page_config(page_title="Know Your Candidate – Political AI Assistant", layout="wide")
 
-# ------------------ CUSTOM STYLING ------------------
 st.markdown("""
 <style>
 .stApp {
@@ -49,14 +46,11 @@ div.stButton > button:disabled {
 </style>
 """, unsafe_allow_html=True)
 
-# ------------------ APP HEADER ------------------
 st.title("🇺🇸 Know Your Candidate – Political AI Assistant")
 st.markdown("Stay informed. Instantly learn about **U.S. politicians** – their **promises**, **voting records**, **speeches**, and more with one click.")
 
-# ------------------ INPUT ------------------
 name = st.text_input("👤 Enter a politician's name (e.g., 'AOC', 'Donald Trump')")
 
-# ------------------ FEATURE BUTTONS ------------------
 if name:
     col1, col2, col3 = st.columns(3)
     col4, col5, col6 = st.columns(3)
@@ -88,7 +82,6 @@ if name:
             selected_feature = "eli5"
             label = "ELI5 Summary"
 
-    # ------------------ QUERY PREP & GPT ------------------
     if selected_feature:
         query_map = {
             "promises": f"What are the 2024 campaign promises made by {name}?",
